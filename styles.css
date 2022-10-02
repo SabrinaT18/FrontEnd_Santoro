@@ -67,5 +67,5 @@ ul {
 .nav-item {
     text-decoration: none;
     text-shadow: none;
-
+    word-wrap: break-word;
 }
