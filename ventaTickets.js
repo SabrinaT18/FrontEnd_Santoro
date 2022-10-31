@@ -6,22 +6,24 @@ const descJunior=15
 function suma(){
     let cant=document.getElementById("cant").value
     
-    let categoria=document.getElementById("categoria").value
+    let cat=document.getElementById("cat").value
 
     let total=0
-    if (categoria==1) {
+    if (cat==1) {
         total=cant*valorTicket*.2 //80%
-    } else if (categoria==2) {
+    } else if (cat==2) {
         total=cant*valorTicket*.5 //50%
-    } else {
+    } else if (cat==3){
         total=cant*valorTicket*.85 //15%
+    } else {
+    total=cant*valorTicket 
     }
-
-    document.getElementById("total").innerHTML=`Total a pagar: $${total}`
+    document.getElementById("total").innerHTML=`Total a pagar: $ ${total}`
 }
 
 
 function borrar(){
-    let cant = parseInt(cantidad.value, 10);
-    let valorTicket = 0;
+    document.getElementById("total").innerHTML=`Total a pagar: $ 0`
 }
+
+
