@@ -1,0 +1,79 @@
+.card-img-overlay {
+    text-align: right;
+    width: 60%;
+    align-content: end;
+    margin-left: 32%;
+    margin-top: 22%;
+}
+
+#config-title {
+    font-size: 26px;
+    text-shadow: 0.1em 0.1em 0.3em black
+
+}
+
+#configp {
+    font-weight: 300px;
+    text-shadow: 0.1em 0.1em 0.3em black
+}
+
+.titulos {
+    text-align: center;
+}
+
+#oradores {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 25px;
+}
+
+#BaOctubre {
+    border: none;
+    height: 340px;
+    border-radius: 0%;
+    margin-top: 65px;
+    width: 65%;
+}
+
+
+#formcard {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+u {
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
+
+
+#exampleFormControlInput1 {
+    margin: 2px;
+}
+
+#footer {
+    background: linear-gradient(90deg, rgb(4, 37, 68) 0%, rgb(21, 68, 78) 100%);
+    justify-content: center;
+    margin-top: 5px
+}
+
+ul {
+    color: white;
+    text-align: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    text-shadow: none;
+    word-wrap: break-word;
+}
+
+#descTicket{
+display: inline-block;
+text-align: center;
+padding: 15px 2px 2px 2px;
+border-radius: 0;
+margin: 1%;
+}
